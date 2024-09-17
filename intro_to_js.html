@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript</title>
+
+  <!-- Using the script tag  
+  - The script tag is used to define a client-side script (JavaScript)
+  - The script element either contains scripting statements or it points to an external script file through the src attribute
+  - When the browser encounters these tags, it knows to execute the JavaScript code
+  -->
+
+  <!-- Writing an alert -->
+   <script>
+      // alert('Hello from alert!'); 
+   </script>
+
+   <!-- <script src="script.js"></script> -->
+
+   <!-- Console.log -->
+    <script>
+      console.log("Hello from console.log")
+    </script>
+
+    <!-- Document.write -->
+    <script>
+      document.write("Hello from document.write")
+    </script>
+
+    <script>
+      console.log(0 == false); // Output: true
+      console.log("" == false); // Output: true
+      console.log(0 === false); // Output: false (Strict Equality Check)
+      console.log("" === false); // Output: false (Strict Equality Check)
+    </script>
+
+</head>
+<body>
+
+
+  <!-- Writing in-line JS -->
+   <!-- The onclick event handler attribute is used to execute Javascript when an element is clicked-->
+  <button onclick="alert('Hello from click me button')">Click Me</button>
+
+  <a href="javascript:alert('Hello, from a tag')">Click Me A Tag</a>
+  
+</body>
+</html>
